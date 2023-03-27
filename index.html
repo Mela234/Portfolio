@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name ="viewport" content ="width= device - width, initial-scale =1.0">
+        
+        <title> Melat Portfolio website </title>
+        
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+       
+        <link rel=" stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity = "sha256-46qynGAkLSFpVbeBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin = "anonymous" />
+        
+        <!--Update these with your own fonts -->
+        
+        <link href ="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel= "stylesheet">
+        <link rel ="stylesheet" href="css/style.css">
+
+
+    </head>
+    <body> 
+        <header>
+            <div class="logo" >
+                <img src="">
+
+            </div>
+            <button class ="nav-toggle" aria-label ="toggle navigation">
+                <span class="hamburger"> </span>
+            </button>
+            <nav class ="nav">
+                <ul class="nav__list">
+                        <li class="nav__item"> <a href= "#" class ="nav__link"> Home </a></li>
+                        <li class="nav__item"> <a href= "#" class ="nav__link"> What I do </a></li>
+                        <li class="nav__item"> <a href= "#" class ="nav__link"> About me </a></li>
+                        <li class="nav__item"> <a href= "#" class ="nav__link"> My work </a></li>
+                </ul>
+            </nav>
+        </header>
+    <!--Introduction-->
+    <section class = "intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Melat Amde</strong>
+        </h1>
+       <p class ="section__subtitle section__subtitle--intro">front-end-dev</p>
+       <img src = "images/Melat.JPG" alt= "a picture of melat" class = "intro__img">
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id = "services">
+        <h2 class ="section__title section__title--services"> What I do </h2>
+        <div class ="services">
+            <div class="service">
+            <h3>Computer Science and Math </h3>
+            <p> I am educated on imperative and functional programming. I am fluent in C, python and standard ML. Currently I work as a research assistant in a Networking lab and as a Math Tutor for calculus 1-3 and discrete mathematics at my university.</p>
+            </div>
+
+        <div class ="service">
+            <h3>Generative art</h3>
+            <p>This is a new field I've come to like in the past few months. I use Processing and P5 softwares for my projects. The most recent project I am working on is a generative landscape. </p>
+            </div> <!--service-->
+        
+        <div class ="service">
+            <h3>Poetry</h3>
+            <p>I have loved poetry since I was a child. I used to only write in Amharic which is my native language, however in the past two years I've started writing in English as well.</p>
+            </div> <!--service-->
+        </div><!--services-->
+            <a href="#work" class="btn"> My Work </a>
+        </section>
+
+         <!--About me-->
+     <section class="about-me" id="about">
+        <h2 class ="section__title section__title--about">Who I am</h2>
+        <p class ="section__subtitle section__subtitle--about"> A sophomore at Wesleyan University</p>
+        <div class ="about-me__body">
+            <p>I am Melat. I was born and raised in Ethiopia, however I am now a sophomore at Wesleyan university in Connecticut. I am double majoring in Computer science and Math. When I am not in the library finishing school work, you can find me drinking chai, playing chess or attending a poetry reading.  </p>
+        </div>
+        <img src ="images/Melat2.JPG" alt = "picture of melat agian" class ="about-me__img">
+    </section>
+
+        <!--My work-->
+        <section class ="my-work" id="work">
+            <h2 class="section__title">My work</h2>
+            <p class ="section__subtitle"></p>
+            <!--portfolio item 1-->
+            <div class="portfolio__img">
+                <a href="portfolio-item1.html#" class="portfolio__item">
+                    <img src="images/portfolio1-pixels/generative1.png" alt="project deiscription">
+                </a>
+                <!--portfolio item 2-->
+                <a href="portfolio-item2.html#" class="portfolio__item">
+                    <img src="images/portfolio2/title.jpg" alt="project deiscription">
+                </a>
+
+            </div>
+        </section>
+ 
+        <!--footer -->
+        <footer class="footer">
+            <a href = "mailto:melatamde46@gmail.com" class="footer__link">melatamde46@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://instagram.com">
+                        <i class="fab fa-instagram"></i> 
+                </a>
+            </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com">
+                        <i class="fab fa-github"></i>
+                </a></li>
+            </ul>
+        </footer> 
+
+        <script src="JS/index.js"></script>
+
+    </body>
+</html>
